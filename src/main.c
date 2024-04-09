@@ -6,7 +6,7 @@
 /*   By: tbihoues <tbihoues@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 16:51:52 by tbihoues          #+#    #+#             */
-/*   Updated: 2024/04/10 01:04:25 by tbihoues         ###   ########.fr       */
+/*   Updated: 2024/04/10 01:49:03 by tbihoues         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,15 +19,15 @@ void	initialize_textures(mlx_t *mlx, t_all *all)
 	i = 0;
 	all->textinf[0].texture = mlx_load_png("png/Black_hole.png");
 	all->textinf[1].texture = mlx_load_png("png/back32.png");
-	all->textinf[2].texture = mlx_load_png("png/banana32.png");
-	all->textinf[3].texture = mlx_load_png("png/doorclose32.png");
+	all->textinf[2].texture = mlx_load_png("png/heart25.png");
+	all->textinf[3].texture = mlx_load_png("png/first.png");
 	all->textinf[4].texture = mlx_load_png("png/kong32.png");
-	all->textinf[5].texture = mlx_load_png("png/1.png");
-	all->textinf[6].texture = mlx_load_png("png/2.png");
-	all->textinf[7].texture = mlx_load_png("png/3.png");
-	all->textinf[8].texture = mlx_load_png("png/4.png");
+	all->textinf[5].texture = mlx_load_png("png/fire1.png");
+	all->textinf[6].texture = mlx_load_png("png/fire2.png");
+	all->textinf[7].texture = mlx_load_png("png/fire3.png");
+	all->textinf[8].texture = mlx_load_png("png/fire4.png");
 	all->textinf[9].texture = mlx_load_png("png/reversekong32.png");
-	all->textinf[10].texture = mlx_load_png("png/dooropen32.png");
+	all->textinf[10].texture = mlx_load_png("png/last.png");
 	while (i < 11)
 	{
 		all->textinf[i].img = mlx_texture_to_image(mlx,
