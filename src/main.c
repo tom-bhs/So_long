@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbihoues <tbihoues@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tombihoues <tombihoues@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 16:51:52 by tbihoues          #+#    #+#             */
-/*   Updated: 2024/04/10 01:58:29 by tbihoues         ###   ########.fr       */
+/*   Updated: 2024/04/10 02:48:06 by tombihoues       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	initialize_textures(mlx_t *mlx, t_all *all)
 
 	i = 0;
 	all->textinf[0].texture = mlx_load_png("png/Black_hole.png");
-	all->textinf[1].texture = mlx_load_png("png/back32.png");
+	all->textinf[1].texture = mlx_load_png("png/Blue_Nebula.png");
 	all->textinf[2].texture = mlx_load_png("png/heart25.png");
 	all->textinf[3].texture = mlx_load_png("png/first.png");
 	all->textinf[4].texture = mlx_load_png("png/rocket1.png");
