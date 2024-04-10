@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tombihoues <tombihoues@student.42.fr>      +#+  +:+       +#+        */
+/*   By: tbihoues <tbihoues@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/08 16:51:52 by tbihoues          #+#    #+#             */
-/*   Updated: 2024/04/10 02:48:06 by tombihoues       ###   ########.fr       */
+/*   Updated: 2024/04/10 16:15:44 by tbihoues         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,17 +17,17 @@ void	initialize_textures(mlx_t *mlx, t_all *all)
 	int	i;
 
 	i = 0;
-	all->textinf[0].texture = mlx_load_png("png/Black_hole.png");
-	all->textinf[1].texture = mlx_load_png("png/Blue_Nebula.png");
-	all->textinf[2].texture = mlx_load_png("png/heart25.png");
-	all->textinf[3].texture = mlx_load_png("png/first.png");
+	all->textinf[0].texture = mlx_load_png("png/ggg.png");
+	all->textinf[1].texture = mlx_load_png("png/night.png");
+	all->textinf[2].texture = mlx_load_png("png/star.png");
+	all->textinf[3].texture = mlx_load_png("png/last.png");
 	all->textinf[4].texture = mlx_load_png("png/rocket1.png");
 	all->textinf[5].texture = mlx_load_png("png/fire1.png");
 	all->textinf[6].texture = mlx_load_png("png/fire2.png");
 	all->textinf[7].texture = mlx_load_png("png/fire3.png");
 	all->textinf[8].texture = mlx_load_png("png/fire4.png");
 	all->textinf[9].texture = mlx_load_png("png/rocket2.png");
-	all->textinf[10].texture = mlx_load_png("png/last.png");
+	all->textinf[10].texture = mlx_load_png("png/first.png");
 	while (i < 11)
 	{
 		all->textinf[i].img = mlx_texture_to_image(mlx,
