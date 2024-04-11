@@ -15,3 +15,7 @@ Commande pour executer valgrind sans les leaks de la MLX42 : valgrind --leak-che
 
 
 makefile relink et .ber a ajouter
+
+
+
+verifier qund ya r dans le .ber
