@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: vabaud <vabaud@student.42.fr>              +#+  +:+       +#+         #
+#    By: tbihoues <tbihoues@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/26 18:29:32 by vabaud            #+#    #+#              #
-#    Updated: 2024/03/20 13:26:37 by vabaud           ###   ########.fr        #
+#    Updated: 2024/09/11 22:53:55 by tbihoues         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -67,11 +67,9 @@ OBJS			=	$(SRCS:.c=.o)
 BONUS			=	ft_lstnew.c \
 					ft_lstadd_front.c \
 					ft_lstsize.c \
-					ft_lstlast.c \
 					ft_lstadd_back.c \
 					ft_lstdelone.c \
 					ft_lstclear.c \
-					ft_lstiter.c \
 					ft_lstmap.c \
 
 BONUS_OBJS		= 	$(BONUS:.c=.o)

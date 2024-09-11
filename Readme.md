@@ -19,3 +19,7 @@ makefile relink et .ber a ajouter
 
 
 verifier qund ya r dans le .ber
+
+
+
+Verif tout les cas avec valGrind
